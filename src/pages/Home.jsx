@@ -57,13 +57,13 @@ const Home = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/products">
-                  <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 font-semibold px-8 py-4 text-lg">
+                  <Button size="lg" className=" text-blue-600 hover:bg-blue-500 font-semibold px-8 py-4 text-lg">
                     Shop Now
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
                 </Link>
                 <Link to="/products?badge=New">
-                  <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-blue-600 font-semibold px-8 py-4 text-lg">
+                  <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-black font-semibold px-8 py-4 text-lg">
                     New Arrivals
                   </Button>
                 </Link>
