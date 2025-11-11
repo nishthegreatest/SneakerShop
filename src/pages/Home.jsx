@@ -63,7 +63,7 @@ const Home = () => {
                   </Button>
                 </Link>
                 <Link to="/products?badge=New">
-                  <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-black font-semibold px-8 py-4 text-lg">
+                  <Button variant="outline" size="lg" className="border-white text-white hover:bg-green-500 hover:text-black font-semibold px-8 py-4 text-lg">
                     New Arrivals
                   </Button>
                 </Link>
